@@ -1,0 +1,108 @@
+# ⚡ INICIO RÁPIDO
+
+## 📦 Archivos del Proyecto (Solo 6)
+
+```
+AR-Buzos-Egresados/
+├── index.html          ← App principal (con mejoras integradas)
+├── README.md           ← Documentación completa
+├── GUIA-MARKERS.md     ← Cómo crear/usar markers
+├── DEPLOY.md           ← Cómo subir a internet
+├── package.json        ← Configuración
+└── .gitignore          ← Para Git
+```
+
+## 🚀 3 Pasos para Empezar
+
+### 1. Descargar marker
+```
+https://raw.githubusercontent.com/AR-js-org/AR.js/master/data/images/hiro.png
+```
+Imprimir en papel A4 (10x10 cm)
+
+### 2. Probar localmente
+```bash
+# En la carpeta del proyecto:
+python -m http.server 8000
+# O:
+npx http-server -p 8000
+
+# Abrir: http://localhost:8000
+```
+
+### 3. Subir a GitHub
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/iacubdiego/RA_Buzos_Aumentados.git
+git branch -M main
+git push -u origin main
+```
+
+**Activar GitHub Pages:**
+Settings → Pages → main branch → Save
+
+**Tu URL:**
+```
+https://iacubdiego.github.io/RA_Buzos_Aumentados
+```
+
+## ✨ Características Incluidas
+
+✅ Configuración de cámara optimizada (como proyecto Baldosas)  
+✅ Copa dorada giratoria  
+✅ Fuegos artificiales  
+✅ Confeti cayendo  
+✅ Estrellas parpadeantes  
+✅ Responsive para móviles  
+✅ Marker Hiro integrado  
+
+## 📱 Usar en el Móvil
+
+1. Abrir URL en Chrome/Safari
+2. Permitir cámara
+3. Apuntar al marker
+4. ¡Disfrutar!
+
+## 🔧 Si tenés problemas con Git
+
+```bash
+# Si dice "rejected":
+git pull origin main --allow-unrelated-histories
+git push -u origin main
+
+# O forzar:
+git push -u origin main --force
+```
+
+## 📖 Documentación
+
+- **README.md** - Todo sobre el proyecto
+- **GUIA-MARKERS.md** - Crear markers personalizados
+- **DEPLOY.md** - Subir a internet
+
+## 🎯 Diferencias con Versión Anterior
+
+**Antes:** 15+ archivos confusos  
+**Ahora:** 6 archivos esenciales  
+
+**Antes:** Múltiples versiones (simple, fixed, ultra, etc)  
+**Ahora:** 1 versión optimizada  
+
+**Antes:** Configuración de cámara básica  
+**Ahora:** Configuración mejorada (como Baldosas)  
+
+## 💡 Próximos Pasos
+
+1. ✅ Descomprimir ZIP
+2. ✅ Probar localmente con marker
+3. ✅ Subir a GitHub
+4. ✅ Activar Pages
+5. ✅ Probar en móvil
+6. ✅ Imprimir marker en buzo
+7. ✅ ¡Compartir con compañeros!
+
+---
+
+**¿Dudas?** Leé README.md para más info.

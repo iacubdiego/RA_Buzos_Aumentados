@@ -1,0 +1,10 @@
+{
+  "name": "ar-buzos-egresados",
+  "version": "1.0.0",
+  "description": "AR para buzos de egresados",
+  "scripts": {
+    "start": "npx http-server -p 8000 -c-1"
+  },
+  "keywords": ["ar", "egresados", "graduation"],
+  "license": "MIT"
+}
